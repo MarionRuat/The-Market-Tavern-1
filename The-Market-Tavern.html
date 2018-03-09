@@ -2,47 +2,91 @@
 <html lang="eng">
 <head>
   <meta charset="UTF-8">
-    <title>The Market Tavern</title>
-      <link   rel="stylesheet"
-              href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
-              href="TheMarketTavern.css"
-              href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet"
-              href="https://fonts.googleapis.com/css?family=Nanum+Myeongjo" rel="stylesheet"
-              integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
-              crossorigin="anonymous">
-   <meta name="viewport" content="width=device-width, initial-scale=1">
-   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>The Market Tavern</title>
+  <link   rel="stylesheet"
+             href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+             integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+             crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Nanum+Myeongjo" rel="stylesheet">
+  <link rel="stylesheet" href="TheMarketTavern.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
 </head>
 <!--Menu de notre TheMarketTavern avec le logo et les différentes sections qui seront reliées au menu burger-->
-<div class="container">
-<header>
-  <div="navbar"> <!--Idée confirmée ?-->
-      <a href="#"><img class="logo" src="_logo.png" alt="logo"/></a>
-        <ul>
-          <li><a href="#Restaurant">Restaurant</a></li>
-          <li><a href="#Events">Events</a></li>
-          <li><a href="#Drink">Drink</a></li>
-          <li><a href="#Brunch">Brunch</a></li>
+  <header>
+    <div class="container-fluid">
+      <nav class="navbar">
+      <!--Idée confirmée ?-->
+      <ul class="navbar navbar-right navbar-fixed-top">
+        <ul class="navbar-right navbar-nav">
+        <li><a href="#Restaurant">Restaurant</a></li>
+        <li><a href="#Events">Events</a></li>
+        <li><a href="#Drink">Drink</a></li>
+        <li><a href="#Brunch">Brunch</a></li>
       </ul>
-   </div>
+    </div>
+  </nav>
 </header>
 <!--Notre body avec notre carousel et nos différentes sections-->
+
 <body>
-  <div="carousel-inner">
-<!--A voir les photos/pisctogrammes annexes à intégrer / Eventuellement le menu ?-->
+  <div id="carousel-example-generic" class="carousel-slide" data-ride="carousel">
+    <div class="carousel-inner">
+      <div class="item active">
+          <img src="market1.jpeg" alt="fist slide">
+        <div class="carousel-caption">
+       </div>
+     </div>
+  <div class="item">
+   <img src="events.jpeg" alt="second slide">
+   <div class="carousel-caption">
+   </div>
+  </div>
+  <div class="item">
+   <img src="food.jpeg" alt="Third Slide">
+   <div class="carousel-caption">
+  </div>
+  </div>
+  <div class="item">
+   <img src="brunch.jpeg" alt="Fourth Slide">
+   <div class="carousel-caption">
+  </div>
+  </div>
+      <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+    <!--A voir les photos/pisctogrammes annexes à intégrer / Eventuellement le menu ?-->
     <h2>Restaurant</h2>
     <h2>Events</h2>
     <h2>Drink</h2>
     <h2>Brunch</h2>
-  </div>
+    </div>
     <section class="section1" id="#Restaurant">
-      <h1>Restaurant</h1>
-        <img><!--Images de plats--></img>
-        <h2>Spécialités</h2>
-          <p>« Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi. Proin porttitor, orci nec nonummy molestie, enim est eleifend mi, non fermentum diam nisl sit amet erat. Duis semper. Duis arcu massa, scelerisque vitae, consequat in, pretium a, enim. <!--Spécialités du restaurant / Histoire (2-3 lignes)--></p>
-        <h2>Menu Food/Restaurant</h2>
-          <p>« Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi. Proin porttitor, orci nec nonummy molestie, enim est eleifend mi, non fermentum diam nisl sit amet erat. Duis semper. Duis arcu massa, scelerisque vitae, consequat in, pretium a, enim. <!--Menu à taper pour le référencement</p>--></p>
-            <h3>Menu de la Semaine</3>
+      <h1 class="title">Restaurant</h1>
+      <img>
+      <!--Images de plats-->
+      </img>
+      <h2>Spécialités</h2>
+      <p>« Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod
+        non, mi. Proin porttitor, orci nec nonummy molestie, enim est eleifend mi, non fermentum diam nisl sit amet erat. Duis semper. Duis arcu massa, scelerisque vitae, consequat in, pretium a, enim.
+        <!--Spécialités du restaurant / Histoire (2-3 lignes)-->
+      </p>
+      <h2>Menu Food/Restaurant</h2>
+      <p>« Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod
+        non, mi. Proin porttitor, orci nec nonummy molestie, enim est eleifend mi, non fermentum diam nisl sit amet erat. Duis semper. Duis arcu massa, scelerisque vitae, consequat in, pretium a, enim.
+        <!--Menu à taper pour le référencement</p>-->
+      </p>
+      <h3>Menu de la Semaine</3>
               <h4>Menu du 12 au 16 Mars : Nous vous proposons...</h4>
                 <p>« Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam.</p>
     </section>
@@ -56,18 +100,45 @@
         <img><!--Images de coktails/boissons--></img>
         <h2>Menu Drink</h2>
           <p>« Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi. Proin porttitor, orci nec nonummy molestie, enim est eleifend mi, non fermentum diam nisl sit amet erat. Duis semper. Duis arcu massa, scelerisque vitae, consequat in, pretium a, enim. <!--Menu des boissons--></p>
+    </section>
     <section class="section4" id="#Brunch">
       <h1>Brunch</h1>
         <img><!--Images de plats brunch--></img>
-        <h2>Menu Brunch</h2>
-          <p>« Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi. Proin porttitor, orci nec nonummy molestie, enim est eleifend mi, non fermentum diam nisl sit amet erat. Duis semper. Duis arcu massa, scelerisque vitae, consequat in, pretium a, enim. <!--Menu brunch--></p>
+        <div class="element2">
+          <div id="fond"></div>
+          <div class="description"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi. Proin porttitor, orci nec nonummy molestie, enim est eleifend mi, non fermentum diam nisl sit amet erat. Duis semper. Duis arcu massa, scelerisque vitae, consequat in, pretium a, enim. <!--Spécialités du restaurant / Histoire (2-3 lignes)--></p></div>
+        </div>
+        <br/>
+      <div class="brunch">
+          <div class="element1">
+            <img class="bru" src="abrunch.jpg" alt="Assiette de brunch" title="Assiette du brunch"/>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi. Proin porttitor, orci nec nonummy molestie, enim est eleifend mi, non fermentum diam nisl sit amet erat. Duis semper. Duis arcu massa, scelerisque vitae, consequat in, pretium a, enim. <!--Spécialités du restaurant / Histoire (2-3 lignes)--></p>
+          </div>
+    </div>
     </section>
     <footer>
-      <ul>
-        <li><a href="#Contact">Contact</a></li>
-          <p href="">Localisation</p><!--Tu cliques, googlemaps s'ouvre-->
-      </ul>
-    </footer>
+    <div class="container-fluid text-center text-md-left">
+       <div class="row">
+         <div class="col-md-6">
+                <ul class="list-unstyled">
+                    <li>
+                        <a href="#!">Contact Us</a>
+                    </li>
+                    <li>
+                        <a href="#!">Localisation</a>
+                    </li>
+                    <li>
+                        <a href="https://www.greeneking.co.uk">The Bordeaux gastroppub</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="footer-copyright py-3 text-center">
+        © 2018 Copyright:
+        <a href="">  </a>
+    </div>
+  </footer>
   </body>
   </div>
   </html>

@@ -1,0 +1,116 @@
+.navbar {
+  background-color: transparent;
+  background-attachment: fixed;
+  margin-top: 30px;
+	margin-bottom: -100px;
+  margin-right: 50px;
+}
+.navbar ul {
+  list-style: none;
+}
+.navbar ul>li>a{
+  color: Grey;
+  margin-top: 50px;
+  padding-right:20px;
+  font-size: 3em;
+  font-style: italic;
+  font-family: Lobster;
+}
+.carousel-inner {
+  margin-top: 0;
+}
+.carousel-inner img {
+   -webkit-filter: brightness(50%); }
+}
+.title{
+font-family:'Lobster', cursive;
+font-size: 3.3em;
+}
+
+h2{
+font-family:'Lobster', cursive;
+font-size: 2em;
+
+}
+
+h3{ font-family:'Lobster', cursive;
+font-size: 2em;
+}
+
+h4 {
+font-family: 'Nanum Myeongjo',serif;
+font-size: 1.5em;
+}
+.section1{
+background-color:#C8CFE5;
+
+}
+.section2{
+background-color:#A6ACBF;
+}
+.section3{
+background-color:#6F737F;
+}
+.section4{
+background-color:#373940;
+border: solid 2px #3A1429;
+border-radius: 8px;
+box-shadow: 0px 0px 2px;
+width: 100%;
+height: auto;
+text-align: justify;
+margin-bottom: 100px;
+
+}
+.description{
+margin-left:100px;
+}
+
+.element2{
+display: flex ;
+border:solid green;
+justify-content:center;
+flex-wrap: wrap;
+
+}
+.fond, .description{
+display: inline-block;
+flex:1 1 auto;
+min-width: 300px;
+max-width: 50%;
+min-height: 170px;
+}
+
+#fond{
+background-image: url("pbrunch.jpg");
+background-repeat: no-repeat;
+background: ;
+}
+
+.element1{
+display: flex ;
+border:solid green;
+justify-content:center;
+height: 350px
+}
+
+
+.bru{
+max-width: 50%;
+}
+.section5{
+background-color:#C8CFE5;
+}
+footer {
+  background-color: #161719;
+}
+@media (max-width : 792px) {
+.navbar ul>li>a {
+  	font-size: 2em;
+    position: right;
+}}
+@media (max-width : 792px) {
+.navbar ul {
+  width: 30px;
+}
+}
